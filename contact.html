@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Alix Grillo Portfolio</title>
+        <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+        <!-- this header container has the main header and the nav bar -->
+        <div id="topBar">
+            <section id="h1container">
+                <h1>Alix Grillo</h1>
+
+                <!-- the nav bar should have thre options: contact, portfolio, and about - current one will be highlighted -->
+                <div class="topnav">
+                    <a class="active" href="contact.html">Contact</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="index.html">About</a>
+                </div>
+            </section>
+        </div>
+        
+        <!-- body container has the form and h2 -->
+        <div class="bodyContainer">
+            
+            <h2>Contact</h2>
+            <!-- this form will ask user to submit name, email and a message -->
+            <div class="form">
+                <form action="mailto: alix.grillo2@gmail.com" method="POST" enctype="text/plain">
+
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="John Smith">
+                
+                    <label for="email">Email</label>
+                    <input type="text" id="email" name="email" placeholder="example@gmail.com">
+                
+                    <label for="msg">Message</label>
+                    <textarea id="msg" name="msg" style="height:200px"></textarea>
+                
+                    <input type="submit" value="Submit">
+                
+                </form>
+            </div>
+        </div>
+        <!-- footer is a placeholder for any needed disclosures -->
+        <footer>
+            <p>&copy; Copyright<p></p>
+        </footer>
+    </body>
+</html>

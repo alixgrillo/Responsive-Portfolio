@@ -1,0 +1,190 @@
+/* the body should have a background image, set the font to Arial, and width to 960px (centered on page) */
+body{
+    background-image: url("../background/vintage-concrete/vintage-concrete.png");
+    background-repeat:no-repeat;
+    background-size:cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    /* width: 960px; */
+    margin: auto;
+    overflow: auto;
+}
+/* the h1 container will space the nav bar and H1 and set background color*/
+#topBar{
+    background-color: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #cccccc;
+}
+#h1container{
+    /* margin: 0 0 20px 0; */
+    /* float: left; */
+    width: 960px;
+    margin:auto;
+    overflow: auto;
+    background-color: #ffffff;
+}
+/* the font for h1 will be Georgia in a teal box with extra padding */
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 28px;
+    width: 200px;
+    padding: 20px;
+    text-align: center;
+    float: left;
+    /* margin: 0 0 20px 0; */
+    margin: 0;
+}
+/* the font for h1 will be Georgia with teal text, it needs to clear float, and a lower border */
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    clear: both;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #dddddd;
+    padding: 20px 0px;
+}
+/* sets images to 200px wide and floats them to the left */
+p{
+    line-height: 150%;
+}
+img{
+    width:200px;
+    float: left;
+    margin: 0px 40px 20px 0px;
+}
+/* the body container will have a background color to contrast it with the background image */
+.bodyContainer{
+    /* margin: 25px 0px 50px; */
+    overflow: auto;
+    padding: 0px 20px 20px;
+    background-color: #ffffff;
+    width: 920px;
+    margin:25px auto 50px;
+}
+
+/* Add a white background color to the top navigation */
+.topnav {
+    color: #777777;
+    /* padding: 10px 0px; */
+    overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    color: #666666;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 10px;
+  }
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #205E5B;
+    color: white;
+  }
+  
+  /* Add a color to the active/current link */
+  /* .topnav a.active {
+    background-color: #4aaaa5;
+    color: white;
+  } */
+  /* one photo looked like it should be larger */
+blockquote{
+    text-align: center;
+    font-style: italic;
+    font-weight: 200;
+}
+  #bigPhoto{
+    width: 400px;
+    float: right;
+    margin: 0px 0px 0px 40px;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Some padding */ 
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 1px;
+    cursor: pointer;
+}
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+    background-color: #205E5B;
+}
+/* Add a background color and some padding around the form */
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+/* keeps the images from spanning the entire box container, so there will only be 2 across */
+.imageContainer{
+    /* float: left; */
+    width: 75%;
+    /* position: relative; */
+
+}
+/* styles the boxes with the text within the link */
+.portLinks{
+    background-color: #4aaaa5;
+    z-index: 1;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 25px 10px;
+    width: 280px;
+    position: absolute;
+    top: 230px;
+}
+.portLinks:hover {
+    color: white ;
+    background-color: #205E5B ;
+  }
+/* styles the image within link */
+.portImg{
+    z-index: 2;
+    width: 300px;
+    float: left;
+    margin: 20px 20px 20px 0px;
+}
+/* positions the projects so that the pictures flow two across and then go to next row */
+#project{
+    float: left;
+    position: relative;
+    text-align: center;
+    overflow: auto;
+}
+/* styles the footer on the page - should be fixed position */
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: #666666;
+    text-align: center;
+    color: white;
+    left: 0;
+    z-index: 3;
+    font-size: 8px;
+    border-top-color: #4aaaa5;
+    border-top-width: 3px;
+    border-top-style: solid;
+    margin-top: 10px;
+}
