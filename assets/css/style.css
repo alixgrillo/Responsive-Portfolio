@@ -188,7 +188,7 @@ footer{
     border-top-style: solid;
     margin-top: 10px;
 }
-@media screen and (max-width: 980px) {
+/* @media screen and (max-width: 980px) {
     .bodyContainer, #h1container{
         width: 85%;
         margin: 20px 20px;
@@ -201,19 +201,40 @@ footer{
         margin: 20px auto;
         background-color: purple;
     }
-}
+} */
 @media screen and (max-width: 640px) {
-    .bodyContainer, #h1container{    
-        width: 90%;
-        margin: 20px auto;
-        background-color: blue;
+    body{
+        width: 100%;
     }
+    .bodyContainer{    
+        width: 90%;
+        margin: 0px auto 20px;
+
+    }
+    #h1container{    
+        width: 100%;
+        margin: 0px auto 20px;
+
+        clear: both;
+    }
+    .topnav{    
+        clear: both;
+        width: 100%;
+        margin: 0;
+
+    } 
     img, #bigPhoto{
         width: 100%;
         margin: auto;
     }
+    h1{
+        width: 100%;
+        margin: 0;
+    }
     .topnav a{
-        font-size: 12px;
+        
+        float: left;
+        width: 20%;
     }
     .portImg{
         margin: 30px auto;
