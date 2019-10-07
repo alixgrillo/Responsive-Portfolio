@@ -188,3 +188,41 @@ footer{
     border-top-style: solid;
     margin-top: 10px;
 }
+@media screen and (max-width: 980px) {
+    .bodyContainer, #h1container{
+        width: 85%;
+        margin: 20px 20px;
+        background-color: black;
+    }
+}
+@media screen and (max-width: 768px) {
+    .bodyContainer, #h1container{
+        width: 90%;
+        margin: 20px auto;
+        background-color: purple;
+    }
+}
+@media screen and (max-width: 640px) {
+    .bodyContainer, #h1container{    
+        width: 90%;
+        margin: 20px auto;
+        background-color: blue;
+    }
+    img, #bigPhoto{
+        width: 100%;
+        margin: auto;
+    }
+    .topnav a{
+        font-size: 12px;
+    }
+    .portImg{
+        margin: 30px auto;
+        clear: both;
+        width: 100%;
+    }
+    .portLinks{
+        margin: 30px auto;
+        clear: both;
+        width: 95%;
+    }
+}
