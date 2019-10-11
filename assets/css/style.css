@@ -207,13 +207,13 @@ footer{
         width: 100%;
     }
     .bodyContainer{    
-        width: 90%;
-        margin: 0px auto 20px;
+        width: 80%;
+        margin: 20px auto 50px;
 
     }
     #h1container{    
         width: 100%;
-        margin: 0px auto 20px;
+        margin: 0px auto 0px;
 
         clear: both;
     }
@@ -226,24 +226,33 @@ footer{
     img, #bigPhoto{
         width: 100%;
         margin: auto;
+        padding: 10px;
     }
     h1{
         width: 100%;
         margin: 0;
+        padding: 20px 0px;
     }
     .topnav a{
         
-        float: left;
-        width: 20%;
+        float: right;
+        width: 33.3%;
+        padding-left: 0;
+        padding-right: 0;
+        margin-right: 0;
+        margin-left: 0;
     }
     .portImg{
         margin: 30px auto;
         clear: both;
         width: 100%;
+        padding: 0;
     }
     .portLinks{
         margin: 30px auto;
         clear: both;
-        width: 95%;
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
