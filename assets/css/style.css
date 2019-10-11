@@ -193,15 +193,66 @@ footer{
         width: 85%;
         margin: 20px 20px;
         background-color: black;
-    }
-}
-@media screen and (max-width: 768px) {
-    .bodyContainer, #h1container{
-        width: 90%;
-        margin: 20px auto;
-        background-color: purple;
-    }
 } */
+
+@media screen and (max-width: 768px) {
+    body{
+        width: 100%;
+    }
+    .bodyContainer{    
+        width: 80%;
+        margin: 20px auto 50px;
+
+    }
+    #h1container{    
+        width: 100%;
+        margin: 0px auto 0px;
+
+        clear: both;
+    }
+    .topnav{    
+        /* clear: both; */
+        width: 60%;
+        margin: 0;
+
+    } 
+    #bigPhoto{
+        margin: auto;
+        margin-left: 2%;
+    }
+    h1{
+        width: 40%;
+        margin: 0;
+        padding: 20px 0px;
+    }
+    .topnav a{
+        
+        float: right;
+        width: 30%;
+        padding-left: 0;
+        padding-right: 0;
+        margin-right: 0;
+        margin-left: 0;
+    }
+    #project{
+        width: 50%;
+    }
+    .portImg{
+        margin: 30px 5%;
+        /* clear: both; */
+        width: 90%;
+        padding: 0;
+    }
+    .portLinks{
+        margin: 30px 5%;
+        /* clear: both; */
+        width: 90%;
+        padding-left: 0;
+        padding-right: 0;
+        top: 50%;
+    }
+
+}
 @media screen and (max-width: 640px) {
     body{
         width: 100%;
@@ -224,9 +275,10 @@ footer{
 
     } 
     img, #bigPhoto{
+        clear: both;
         width: 100%;
         margin: auto;
-        padding: 10px;
+        padding: 10px 0px;
     }
     h1{
         width: 100%;
