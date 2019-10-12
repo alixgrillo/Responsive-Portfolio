@@ -3,9 +3,9 @@ modifying portfolio pages to have mobile responsiveness
 
 ## Description
 ------------------------------------------------
-- Homework #1 was to create a professional portfolio site using
-HTML/CSS. This should be committed to a GitHub repository and published
-using GitPages.
+- Homework #2 was to modify a professional portfolio site using
+HTML/CSS with Media Queries to enable mobile responsiveness. This should be 
+committed to a GitHub repository and published using GitPages.
 
 - There are 3 HTML pages that will be described below. Each page
 will share the same header style. The header contains a logo that contains
